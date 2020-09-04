@@ -5,6 +5,6 @@
     - "{{ ansible_distribution }}{{ ansible_distribution_major_version }}.yml"
     - "{{ ansible_os_family }}.yml"
 
-- include_tasks: "tomcat-setup-Debian.yml"
-# - include_tasks: "tomcat-setup-{{ ansible_os_family }}.yml"
+# - include_tasks: "tomcat-setup-Debian.yml"
+- include_tasks: "tomcat-setup-{{ ansible_os_family }}.yml"
 # Debian.yml
