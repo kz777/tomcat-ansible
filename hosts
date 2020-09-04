@@ -1,2 +1,3 @@
 [tomcat-nodes]
 172.17.0.3 # Add Server IP address, one line per server
+172.17.0.4
