@@ -100,5 +100,10 @@ $ ansible-playbook -i hosts tomcat-setup.yml --ask-become-pass
 
 Execution should be successful without errors:
 
+## Possible errors
+#Could not find the requested service tomcat: " 👇
+
+systemctl daemon-reload
+
 ```
 ```
