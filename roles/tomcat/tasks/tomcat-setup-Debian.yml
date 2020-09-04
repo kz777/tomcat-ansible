@@ -61,8 +61,6 @@
     dest: /etc/systemd/system/tomcat.service
   when: ansible_service_mgr == "systemd"
   
-- name: return motd to registered var
-  command: systemctl daemon-reload
 
 - name: Start and enable tomcat
   service:
